@@ -1,0 +1,4 @@
+#!/bin/bash
+echo [git-send-refresh]
+git-touch
+git-send "$1 [Just refresh repository]"

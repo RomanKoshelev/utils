@@ -1,0 +1,3 @@
+#!/bin/bash
+echo [git-touch]
+touch README.md

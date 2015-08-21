@@ -1,0 +1,3 @@
+#!/bin/bash
+echo [init-path]
+export PATH=$UTILS_PATH:$PATH

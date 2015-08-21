@@ -1,0 +1,5 @@
+#!/bin/bash
+echo [git-send]
+git-add
+git-commit "$1"
+git-push

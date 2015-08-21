@@ -1,0 +1,4 @@
+#!/bin/bash
+echo [git-config]
+git config --global core.autocrlf false
+git config credential.helper store

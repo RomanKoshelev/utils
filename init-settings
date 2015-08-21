@@ -1,0 +1,6 @@
+#!/bin/bash
+echo [init-settings]
+
+export UTILS_PATH=/p/projects/utils
+export PROJECTS_PATH=/p/projects
+export PROJECT_NAME=aspose

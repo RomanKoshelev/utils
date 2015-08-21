@@ -1,0 +1,3 @@
+#!/bin/bash
+echo [aspose-settings]
+export PROJECT_FOLDER=Aspose.Html.Net

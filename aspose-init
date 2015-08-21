@@ -1,0 +1,4 @@
+#!/bin/bash
+echo [aspose-init]
+source aspose-settings
+source project-cd
