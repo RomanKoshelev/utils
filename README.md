@@ -1,7 +1,7 @@
 # Utils
 
 ### How to use 
-Add symbolic links:
+Create symbolic links:
 - `.bashrc => c:\users\<user>\.bashrc`
 - `init*  => c:\users\<user>\bin\*`
 
