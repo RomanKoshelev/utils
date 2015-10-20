@@ -1,0 +1,4 @@
+#!/bin/bash
+echo [groupdocs-init]
+source groupdocs-settings
+source project-cd
