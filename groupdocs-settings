@@ -1,3 +1,0 @@
-#!/bin/bash
-echo [groupdocs-settings]
-export PROJECT_FOLDER=Groupdocs.Html.Net

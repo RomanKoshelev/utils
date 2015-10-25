@@ -1,3 +1,0 @@
-#!/bin/bash
-echo [project-cd]
-cd "$PROJECTS_PATH/$PROJECT_FOLDER"

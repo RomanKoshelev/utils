@@ -2,4 +2,4 @@
 echo [init]
 source init-settings
 source init-path
-source $PROJECT_NAME-init
+cd $PROJECTS_PATH
