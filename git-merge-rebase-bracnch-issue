@@ -1,0 +1,15 @@
+#!/bin/bash
+echo [git-merge-rebase-bracnch-issue"( $1 <- $2 )"]
+
+echo [Update "$1"]
+git checkout $1
+git pull origin $1
+
+echo [Get changes from "$2" and put them on top of "$1"]
+git checkout $2
+git rebase $1
+
+echo [Merge "$2" -> "$1" and push]
+git checkout $1
+git merge $2
+git push origin $1
