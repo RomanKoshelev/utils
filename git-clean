@@ -1,0 +1,3 @@
+#!/bin/bash
+echo [git-clean]
+git clean -d -X -f
