@@ -1,4 +1,4 @@
-@echo [.commit-it]
+@echo [.update-origin]
 git status
 git add --all
 git commit -am "[.commit-it]"
