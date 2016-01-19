@@ -1,5 +1,5 @@
 #!/bin/bash
-echo [git-merge-rebase-bracnch-issue"( $1 - $2 )"]
+echo [git-merge-rebase-branch-issue"( $1 - $2 )"]
 
 echo [Update "$1"]
 git checkout $1

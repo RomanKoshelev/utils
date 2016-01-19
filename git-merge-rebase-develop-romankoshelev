@@ -1,0 +1,3 @@
+#!/bin/bash
+echo [git-merge-rebase-develop-romankoshelev"( $1 )"]
+git-merge-rebase-develop roman.koshelev
