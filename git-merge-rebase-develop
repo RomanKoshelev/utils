@@ -1,3 +1,0 @@
-#!/bin/bash
-echo [git-merge-rebase-develop"( $1 )"]
-git-merge-rebase-branch-issue develop $1

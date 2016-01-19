@@ -1,15 +1,28 @@
 #!/bin/bash
-echo [git-merge-rebase-branch-issue"( $1 - $2 )"]
+echo [git-merge-rebase-branch-issue]
+echo 
+echo "Applying the 'merge-rebase' approach in the situation of:"
+echo "  Branch: $1"
+echo "  Issue:  $2"
+echo 
 
+echo =================================================
 echo [Update "$1"]
 git checkout $1
 git pull origin $1
+echo    
 
+echo =================================================
 echo [Get changes from "$2" and put them on top of "$1"]
 git checkout $2
 git rebase $1
+echo 
 
+echo =================================================
 echo [Merge "$2" - "$1" and push]
 git checkout $1
 git merge $2
 git push origin $1
+echo 
+
+echo Done.

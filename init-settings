@@ -3,3 +3,4 @@ echo [init-settings]
 
 export UTILS_PATH=/p/projects/utils/git
 export PROJECTS_PATH=/p/projects
+export PROJECT_FOLDER=Aspose/Aspose.Pdf.Html

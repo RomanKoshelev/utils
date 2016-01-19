@@ -2,4 +2,5 @@
 echo [init]
 source init-settings
 source init-path
-cd $PROJECTS_PATH
+source init-ssh-agent
+cd $PROJECTS_PATH/$PROJECT_FOLDER
